@@ -1,11 +1,80 @@
+
 .header {
+
     background-color:#1F2937;
     color:white;
     margin:-8px;
-    padding:8px
+    padding:8px;
+    height:300px;
+    
+   
+
+}
+
+ul{
+    display:flex;
+    list-style:none;
+    margin:0;
+    padding:0;
+    gap:16px;
+    justify-content:flex-end;
+    align-items:center;
+    
+    
+
+}
+
+.logo
+{
+    width:150px;
+    margin:-8;
+    padding:0
+}
+
+.top-header{
+    width:1500px;
+    display:flex;
+    justify-content:space-around
+
+
+
+}
+
+.bottom-header{
+    display:flex;
+    width:2600px
+}
+
+.bottom-header-left-side{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    width:400px;
+    margin-right:600px
+    
+    
+   
+}
+
+.box{
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-end
+}
+
+box{
+    background-color:red;
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content:center
 }
 
 button {
     color:white;
-    background-color:blue
+    background-color:blue;
+    height:50px;
+    
 }
