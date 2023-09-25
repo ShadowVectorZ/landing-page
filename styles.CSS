@@ -1,11 +1,14 @@
 
+
 .header {
 
     background-color:#1F2937;
     color:white;
     margin:-8px;
     padding:8px;
-    height:300px;
+    padding-bottom:48px;
+    height:600px;
+    
     
    
 
@@ -19,6 +22,7 @@ ul{
     gap:16px;
     justify-content:flex-end;
     align-items:center;
+    font-size:18px
     
     
 
@@ -28,13 +32,16 @@ ul{
 {
     width:150px;
     margin:-8;
-    padding:0
+    padding:0;
+    font-size:24px
 }
 
 .top-header{
-    width:1500px;
+    width:1300px;
     display:flex;
-    justify-content:space-around
+    justify-content:space-around;
+    flex-wrap:wrap
+
 
 
 
@@ -42,7 +49,11 @@ ul{
 
 .bottom-header{
     display:flex;
-    width:2600px
+    width:1200px;
+    font-size:18px;
+    margin-left: 100px;
+    ;
+
 }
 
 .bottom-header-left-side{
@@ -61,11 +72,12 @@ ul{
 
     display:flex;
     justify-content:center;
-    align-items:flex-end
+    align-items:center;
+    flex-direction:column;
 }
 
 box{
-    background-color:red;
+    background-color:grey;
     height:200px;
     width:200px;
     display:flex;
@@ -78,3 +90,44 @@ button {
     height:50px;
     
 }
+
+.awesome-website {
+    font-size:48px
+}
+
+.some-random-information {
+    background-color:white;
+    color:grey;
+    margin:-8px;
+    padding:8px;
+    height:500px;
+    margin-top:100px;
+    padding-top:20px;
+    text-align:center
+    
+}
+
+.title{
+    margin-bottom:32px
+
+}
+
+.info-pic {
+    max-width:200px
+}
+
+.info-container {
+    display:flex;
+    justify-content:center;
+    gap:52px
+}
+
+
+
+
+
+
+
+
+
+
