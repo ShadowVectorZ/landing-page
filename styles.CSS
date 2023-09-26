@@ -14,11 +14,22 @@
     padding-bottom:48px;
     height:600px;
     
-    
-    
-   
+
 
 }
+
+box {
+    
+    height:200px;
+    width:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:5px solid lightskyblue;
+    border-radius:25px
+
+}
+
 
 ul{
     display:flex;
@@ -91,13 +102,15 @@ ul{
     width:500px;
     display:flex;
     justify-content:center;
-    align-items:center
+    align-items:center;
+    border:0px
 }
 
 button {
     color:white;
     background-color:blue;
     height:50px;
+    border-radius:10px
     
 }
 
