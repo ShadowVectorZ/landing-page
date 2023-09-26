@@ -136,7 +136,7 @@ button {
     height:300px;
     margin-top:100px;
     padding-top:20px;
-    text-align:center;
+   
     display:flex;
     align-items:center;
     justify-content:center
@@ -145,13 +145,13 @@ button {
 .space {
     width:700px;
     font-size:36px;
-    margin-left:100px
+    margin-left:400px
 }
 
 .Thor{
    margin-top:250px;
-   margin-right:100px;
-   font-size:20px;
+   margin-right:400px;
+   font-size:30px;
    font-weight:bold;
   
 }
