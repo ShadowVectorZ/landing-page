@@ -158,5 +158,28 @@ button {
 
 
 
+.action{
+    background-color:white;
+    margin:-8px;
+    padding:8px;
+    height:300px;
+    margin-top:100px;
+    padding-top:20px;
+   
+    display:flex;
+    align-items:center;
+    justify-content:center
+
+}
 
 
+
+.time{
+    background-color:blue;
+    width:1000px;
+    height:150px;
+    display:flex;
+    flex-wrap:wrap
+}
+
+*{border:2px solid red}
